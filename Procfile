@@ -1,1 +1,1 @@
-web: bundle exec puma -p $PORT
+web: bundle exec webrick -p $PORT -D -V

@@ -16,7 +16,7 @@ end
 #The filename is "fileUpload"
 #Also reports the infraction that the picture represents
 post "/reportkarma" do
-    
+    print params
     if params['fileUpload'] == nil 
         return get_error_json("No File")
     end

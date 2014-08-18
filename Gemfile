@@ -5,5 +5,6 @@ ruby "2.0.0"
 gem "sinatra"
 gem 'dm-sqlite-adapter'
 gem 'data_mapper'
-gem "puma"
+#gem "thin"
+gem "webrick"
 gem "haml"
